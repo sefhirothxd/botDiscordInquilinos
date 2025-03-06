@@ -1,0 +1,20 @@
+{
+	"name": "bot-discord-inquilinos",
+	"version": "1.0.0",
+	"description": "Bot de Discord para gestionar inquilinos y recordatorios de pagos.",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"dependencies": {
+		"discord.js": "^14.18.0",
+		"dotenv": "^16.4.7",
+		"moment-timezone": "^0.5.47",
+		"node-cron": "^3.0.3",
+		"pg": "^8.13.3"
+	}
+}
