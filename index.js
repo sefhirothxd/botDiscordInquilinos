@@ -178,7 +178,7 @@ async function enviarRecordatorios() {
 
 	if (canal) {
 		inquilinos.forEach((inquilino) => {
-			if (diaActual === inquilino.diaPago) {
+			if (diaActual === parseInt(inquilino.diapago)) {
 				canal.send(
 					`📅 Recordatorio: Hoy es el día de pago de ${inquilino.nombre} (Cuarto ${inquilino.numero_cuarto}).`
 				);
